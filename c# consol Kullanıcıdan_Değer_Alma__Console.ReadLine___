@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Kullanıcıdan_Değer_Alma__Console.ReadLine___
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("lütfen kullnıcı danıcınız giriniz");
+            string isim = Console.ReadLine();
+
+            Console.WriteLine("lütfen soy isminizi giriniz");
+            string soyad = Console.ReadLine();
+
+            Console.WriteLine("lütfen şifrenizi giriniz");
+            string şifre = Console.ReadLine();
+
+            Console.WriteLine("kullnıcı adınız:" + isim);
+            Console.WriteLine("soy isminiz:" + soyad);
+            Console.WriteLine("şifreniz:" + şifre);
+
+
+            Console.ReadLine();
+        }
+    }
+}
